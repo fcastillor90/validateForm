@@ -1,0 +1,47 @@
+.card-body {
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  
+}
+
+.signopeso {
+  width: 0.3%;
+  padding-top: 38px;
+}
+.amount {
+  width: 39%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.cancel {
+  margin: 3px;
+}
+.send {
+  margin: 3px;
+}
+
+.payment {
+  border-radius: 5px;
+  width: 55%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.form-check-input {
+  margin: 5px;
+}
+
+
+.alert-danger {
+  background-color: rgb(243, 135, 12);
+  color: red;
+}
